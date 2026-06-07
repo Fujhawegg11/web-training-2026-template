@@ -32,17 +32,5 @@
         "organizeImports": "on"
       }
     }
-  },
-  "overrides": [
-    {
-      "includes": ["src/api/routes/message.ts"],
-      "linter": {
-        "rules": {
-          "correctness": {
-            "noUnusedImports": "off"
-          }
-        }
-      }
-    }
-  ]
+  }
 }
